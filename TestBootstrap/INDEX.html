@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <title>Bootstrap!</title>
+  </head>
+  <body>
+    <!--Inicio NAV-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado"
+        aria-expanded="false"
+        aria-label="Alterna navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(página atual)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Rede Sociais
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a
+                class="dropdown-item"
+                href="https://www.facebook.com/gabriela.teixeira.3382/"
+                >FaceBook</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://www.linkedin.com/in/gabriela-teixeira-mendes/"
+                >linkedIn</a
+              >
+              <a class="dropdown-item" href="https://github.com/Gabriela17tx"
+                >GitHun</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Desativado</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Pesquisar"
+            aria-label="Pesquisar"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Pesquisar
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!--Fim NAV-->
+
+    <!--carousel-->
+    <div class="row mt-12 mb-5">
+      <div class="col-md-12">
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="https://scontent.fcgh12-1.fna.fbcdn.net/v/t31.18172-8/10620144_586406031485808_7501272684633045163_o.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFyWak02vPhTUrQRUNTnhBE6nt-X1LBF2nqe35fUsEXaVmhz_2FclJstZDZxUfp6HUCYKnVwqGpt6D23n8bSXgG&_nc_ohc=urhz_mrVs84AX84i1xY&_nc_ht=scontent.fcgh12-1.fna&oh=fa9ce768a3dfbf311372e46fb98bc428&oe=619F1614 "
+            class="imagem respnsiva"
+            alt="Primeiro Slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://scontent.fcgh12-1.fna.fbcdn.net/v/t31.18172-8/12185265_768573329935743_6559125041757668364_o.jpg?_nc_cat=108&ccb=1-5&_nc_sid=84a396&_nc_eui2=AeHLdaNQfa5aoWUEzu-pKWT9Mn9554ffxS4yf3nnh9_FLsqENpRqcRqxHaUhh8_b53v6k8Osnd7Gzww6SMTzsBZq&_nc_ohc=HopkdXOLZWQAX8EEvXC&_nc_ht=scontent.fcgh12-1.fna&oh=ced96bd57262c0a9da89d49f8ec72a18&oe=619C7E4E "
+            class="imagem respnsiva"
+            alt="Segundo Slide"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="https://scontent.fcgh12-1.fna.fbcdn.net/v/t1.18169-9/16114694_1074503532676053_3783831917934545291_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFnc6j45AtTgVMbZv5aNdFpcZYrDh7j-tJxlisOHuP60kWQw9eAsBMDa_2j9pCXQbVAMkzERsdGxG5x_Miy0iE5&_nc_ohc=eMmSIP8RQHYAX_cMwX-&_nc_ht=scontent.fcgh12-1.fna&oh=1286e7b44209a99165a867fc26c2771d&oe=619CD5D3 "
+            class="imagem respnsiva"
+            alt="Terceiro Slide"
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+    <!--fim carousel-->
+
+    <!--jumbotron-->
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p class="lead">
+          Este é um jumbotron modificado que ocupa todo o espaço horizontal de
+          seu elemento pai.
+        </p>
+      </div>
+    </div>
+
+    <!--jumbotron-->
+
+    <!--Grupo de card-->
+
+    <div class="container">
+      <div class="card-group">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src=".../100px180/"
+            alt="Imagem de capa do card"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Título do card</h5>
+            <p class="card-text">
+              Este é um card maior com suporte a texto embaixo, que funciona
+              como uma introdução a um conteúdo adicional. Este conteúdo é um
+              pouco maior, para demonstração.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Atualizados 3 minutos atrás</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src=".../100px180/"
+            alt="Imagem de capa do card"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Título do card</h5>
+            <p class="card-text">
+              Este é um card com suporte a texto embaixo, que funciona como uma
+              introdução a um conteúdo adicional.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Atualizados 3 minutos atrás</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src=".../100px180/"
+            alt="Imagem de capa do card"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Título do card</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad eum
+              aliquam totam, impedit, rerum vero illo itaque architecto ipsa,
+              reiciendis sunt magni blanditiis quod officia quis atque. Ex,
+              mollitia animi?
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Atualizados 3 minutos atrás</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    
+
+    <!--fim Grupo de card-->
+
+    <!--Texto e Video-->
+
+    <div class="row mt-5 mb-5">
+      <div class="col-md-6">
+        <h3>Texto Teste</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          vero sunt veritatis, eius ipsa ullam in architecto consectetur
+          consequuntur provident voluptates quia hic debitis tempora quos
+          repellendus sint aliquid earum enim dolorem, totam sequi.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis et
+          odio odit molestias possimus porro incidunt deserunt similique natus
+          adipisci! Rem nisi tempora earum nihil sequi quasi quas, a explicabo
+          tenetur et repellat?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis et
+          odio odit molestias possimus porro incidunt deserunt similique natus
+          adipisci! Rem nisi tempora earum nihil sequi quasi quas.
+        </p>
+      </div>
+      
+      <div class="col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ppy05AXmHAE" 
+        title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+      </div>
+      
+
+      </div>
+
+      
+
+      </div>
+    </div>
+
+    <!--Fim Texto e Video-->
+
+<hr>
+
+    <!--Inicio Rodapé-->
+
+    <footer>
+
+      <div class="row mb-3">
+        <div class="col-md-12 d-flex justify-content-center">
+          <a href="https://www.facebook.com/gabriela.teixeira.3382/" target="_blank" class="p-3" class="p-3">
+            <img class="tm-social" src="https://www.citypng.com/public/uploads/preview/-11595347883qauxlefej5.png" alt="Logo facebook">
+          </a>
+      <div class="row mb-3">
+        <div class="col-md-12 d-flex justify-content-center">
+          <a href="https://www.facebook.com/gabriela.teixeira.3382/" target="_blank" class="p-3">
+            <img class="tm-social" src="https://image.similarpng.com/very-thumbnail/2020/05/Scribble-Linkedin-logo-black-PNG.png" alt="Logo linkedIn">
+              </a>
+
+      <div class="row mb-3">
+        <div class="col-md-12 d-flex justify-content-center">
+          <a href="" target="_blank" class="p-3">
+            <img class="tm-social" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzfvqHxEn7YOmbcqng0xvPC-ey5GWRK10xA&usqp=CAU" alt="Logo gitHub">
+              </a>
+
+        </div>
+        <p class="txtcenter">
+          Todos os direitos reservados: Gabriela Teixeira &copy;
+        </p>
+      </div>
+  </div>
+</footer>
+
+    <!--Fim Rodapé-->
+
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
